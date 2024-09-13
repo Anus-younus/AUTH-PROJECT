@@ -1,13 +1,13 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_apiKey,
-  authDomain: process.env.NEXT_PUBLIC_authDomain,
-  databaseURL:process.env.NEXT_PUBLIC_databaseURL,
-  projectId: process.env.NEXT_PUBLIC_projectId,
-  storageBucket: process.env.NEXT_PUBLIC_storageBucket,
-  messagingSenderId: process.env.NEXT_PUBLIC_messagingSenderId,
-  appId: process.env.NEXT_PUBLIC_appId
+  apiKey: "AIzaSyCl-rx7xgTD9u2Ol_NUNDIE5bWNf63uV18",
+  authDomain: "app-c34ef.firebaseapp.com",
+  databaseURL: "https://app-c34ef-default-rtdb.firebaseio.com",
+  projectId: "app-c34ef",
+  storageBucket: "app-c34ef.appspot.com",
+  messagingSenderId: "1071377722107",
+  appId: "1:1071377722107:web:38af2a53a12c2151c51e5e"
 };
 
 export const app = initializeApp(firebaseConfig)
